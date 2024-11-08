@@ -12,6 +12,8 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-IC:/msys64/ucrt64/include",        // Include directory for headers
                 "-LC:/msys64/ucrt64/lib",            // Library directory
+                "-LC:/glew-2.2.0-win32/glew-2.2.0/lib",
+                "-lglew32",
                 "-lopengl32",                        // Link to OpenGL
                 "-lglu32",                           // Link to GLU
                 "-lfreeglut"                        // Link to FreeGLUT library
